@@ -179,4 +179,11 @@
   <project path="vendor/qcom/opensource/dataservices" name="ArrowOS/android_vendor_qcom_opensource_dataservices" revision="arrow-13.0" remote="github" />
   <project path="vendor/qcom/opensource/healthd-ext" name="ArrowOS/android_vendor_qcom_opensource_healthd-ext" revision="arrow-13.0" remote="github" />
   <project path="vendor/qcom/opensource/vibrator" name="ArrowOS/android_vendor_qcom_opensource_vibrator" revision="arrow-13.0" remote="github" />
+  
+  <!-- clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r458507" name="OhMyVenyx/clang-r458507" clone-depth="1" remote="gitlab" revision="master" />
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="evox13" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="darknius20/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/jasjus" remote="github" revision="nimf" clone-depth="1" />
 </manifest> 
